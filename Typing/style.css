@@ -1,0 +1,108 @@
+ #backgroundcolor{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(230, 224, 224), #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, rgb(156, 147, 138)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main, p, input{
+    display: block;
+    margin-top: 25px;
+    margin: 20px auto;
+    align-items: center;
+    position: relative ;
+    overflow: hidden;
+}
+#heading{
+
+    height: 60px;
+    padding: 25px;
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(247, 243, 243);
+    display: block;
+    font-family: sans-serif,'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    align-content: center;
+    text-align: center;
+    font-size: 45px;
+    
+}
+.main{
+    margin: 0px auto;
+    display: block;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+}
+
+#textReal{
+    
+    color: rgb(4, 25, 32);
+    background-color: #ECE9E6;
+    display: block;
+    text-align: auto;
+    align-content: center;
+    border: 2px gray solid;
+    height: 120px;
+    font-size: 1.4em;
+    max-width: 650px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#inpText{
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    font-size: 1.5em;
+    font: outline;
+    height: 60px;
+    width: 650px;
+    border: 5px gray solid;
+    padding: 20px;
+}
+#inpText:focus{
+    outline: none;
+}
+#timer{
+    left: 24%;
+    display: inline;
+    margin: 20px auto;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: inline;
+    font-size: 35px;
+
+}
+
+#reset{
+    left: 60%;
+    position: relative;
+    box-sizing: border-box;
+    color:black;
+    align-content: center;
+    height: 45px;
+    min-width: 90px;
+    margin: 20px auto;
+    font-size: 20px;
+    background: rgba(209, 141, 15, 0.815);
+    border: 2px rgba(209, 141, 15, 0.815) solid;
+}
+#reset:active{
+    background: #292E49;
+    color: whitesmoke;
+}
+#reset:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px)
+{
+    #reset, #timer{
+        display: block;
+        
+    }   
+}
